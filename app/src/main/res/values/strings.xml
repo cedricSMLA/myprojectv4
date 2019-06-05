@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">myprojectv3</string>
+    <string name="notification_channel_id">myCanal</string>
+    <string name="notification_channel_title">myTitle</string>
+    <string name="notification_channel_desc">This is a test canal</string>
+</resources>
