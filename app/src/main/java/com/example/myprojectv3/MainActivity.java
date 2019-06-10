@@ -25,13 +25,13 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        recyclerView = (RecyclerView) findViewById(R.id.myRecyclerView);
 
         //Create a handler for the RetrofitInstance interface//
 
         GerritAPI service = Controller.getRetrofitInstance().create(GerritAPI.class);
 
-        Call<List<RetroUsers>> call = service.getAllUsers();
+        Call<List<RetroUsers>> call = service.getAllCountries();
 
         //Execute the request asynchronously//
 
@@ -57,23 +57,25 @@ public class MainActivity extends Activity {
         });
     }
 
-//Display the retrieved data as a list//
+    //Display the retrieved data as a list//
 
     private void loadDataList(List<RetroUsers> usersList) {
 
-//Get a reference to the RecyclerView//
+        //Get a reference to the RecyclerView//
 
         recyclerView = findViewById(R.id.myRecyclerView);
         mAdapter = new MyAdapter(usersList);
 
-//Use a LinearLayoutManager with default vertical orientation//
+        //Use a LinearLayoutManager with default vertical orientation//
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivity.this);
         recyclerView.setLayoutManager(layoutManager);
 
-//Set the Adapter to the RecyclerView//
+        //Set the Adapter to the RecyclerView//
 
         recyclerView.setAdapter(mAdapter);
     }
+
+
 
 }

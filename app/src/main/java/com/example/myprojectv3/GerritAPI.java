@@ -10,9 +10,9 @@ public interface GerritAPI {
 
     //Specify the request type and pass the relative URL//
 
-    @GET("/api/v2/pokemon/ditto/")
+    @GET("all")
 
     //Wrap the response in a Call object with the type of the expected result//
 
-    Call<List<RetroUsers>> getAllUsers();
+    Call<List<RetroUsers>> getAllCountries();
 }
