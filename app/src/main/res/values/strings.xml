@@ -3,4 +3,6 @@
     <string name="notification_channel_id">myCanal</string>
     <string name="notification_channel_title">myTitle</string>
     <string name="notification_channel_desc">This is a test canal</string>
+    <string name="button_second">Button</string>
+    <string name="textview_second">TextView</string>
 </resources>

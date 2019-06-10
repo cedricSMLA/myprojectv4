@@ -12,7 +12,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        //rediriger vers la page principale après un delay de 3s
+        //rediriger vers la page principale après un delay de 2s
         Runnable runnable = new Runnable() {
             @Override
             public void run() {

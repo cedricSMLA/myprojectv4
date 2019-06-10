@@ -9,10 +9,41 @@ import com.google.gson.annotations.SerializedName;
         @SerializedName("name")
         private String name;
 
+        @SerializedName("region")
+        private String region;
+
+        @SerializedName("capital")
+        private String capital;
+
+        public String getCapital() {
+            return capital;
+        }
+
+        public void setCapital(String capital) {
+            this.capital = capital;
+        }
+
         public RetroUsers(String name) {
             this.name = name;
-
         }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getRegion() {
+            return region;
+        }
+
+        public void setRegion(String region) {
+            this.region = region;
+        }
+
+
 
 //Retrieve the data using setter/getter methods//
 
