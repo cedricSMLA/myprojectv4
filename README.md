@@ -8,6 +8,6 @@ Dans le cadre du module de programmation mobile en 3A CFA à l'ESIEA, nous devio
 * Stockage des données en cache
 * Notification Push 
 
-Mon application répertorie les pays du monde avec comme information :
+Mon application répertorie les pays du monde avec comme informations :
 * Le continent/région où se situe le pays
 * La capitale du pays
