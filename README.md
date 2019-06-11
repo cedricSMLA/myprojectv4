@@ -1,10 +1,13 @@
-# myprojectv4
+# Countries Application
 Dans le cadre du module de programmation mobile en 3A CFA à l'ESIEA, nous devions réaliser une application android répondant à des critères spécifique:
 * Deux écrans
-* Splach Screen
+* Splash Screen
 * Un écran avec une liste
-* un écran avec un détail de l’item
+* un écran avec un détail de l’item 
 * Appel WebService à une API Rest
 * Stockage des données en cache
-* Notification Push
+* Notification Push 
 
+Mon application répertorie les pays du monde avec comme information :
+* Le continent/région où se situe le pays
+* La capitale du pays
